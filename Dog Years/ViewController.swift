@@ -10,6 +10,24 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var dogAge: UITextField!
+    
+    @IBOutlet weak var message: UILabel!
+    
+    @IBAction func buttonPressed(sender: AnyObject) {
+        
+        var age = dogAge.text.toInt()
+        
+        if ((age) != nil){
+        
+        age = (age!*4)
+        
+        message.text = "Your dog is \(age!) years old"
+        }else {
+            message.text = "Please enter a number"
+        }  
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

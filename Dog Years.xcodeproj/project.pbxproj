@@ -13,6 +13,7 @@
 		F252BD961A26FFE000AD61AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F252BD951A26FFE000AD61AC /* Images.xcassets */; };
 		F252BD991A26FFE000AD61AC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F252BD971A26FFE000AD61AC /* LaunchScreen.xib */; };
 		F252BDA51A26FFE100AD61AC /* Dog_YearsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F252BDA41A26FFE100AD61AC /* Dog_YearsTests.swift */; };
+		F252BDAF1A2700D400AD61AC /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F252BDAE1A2700D400AD61AC /* images.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		F252BD9E1A26FFE100AD61AC /* Dog YearsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dog YearsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F252BDA31A26FFE100AD61AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F252BDA41A26FFE100AD61AC /* Dog_YearsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog_YearsTests.swift; sourceTree = "<group>"; };
+		F252BDAE1A2700D400AD61AC /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = images.jpeg; path = ../../../images.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				F252BD921A26FFE000AD61AC /* Main.storyboard */,
 				F252BD951A26FFE000AD61AC /* Images.xcassets */,
 				F252BD971A26FFE000AD61AC /* LaunchScreen.xib */,
+				F252BDAE1A2700D400AD61AC /* images.jpeg */,
 				F252BD8C1A26FFE000AD61AC /* Supporting Files */,
 			);
 			path = "Dog Years";
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F252BD941A26FFE000AD61AC /* Main.storyboard in Resources */,
+				F252BDAF1A2700D400AD61AC /* images.jpeg in Resources */,
 				F252BD991A26FFE000AD61AC /* LaunchScreen.xib in Resources */,
 				F252BD961A26FFE000AD61AC /* Images.xcassets in Resources */,
 			);
